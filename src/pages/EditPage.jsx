@@ -6,7 +6,7 @@ import axios from 'axios';
 import Swal from 'sweetalert2';
 
 function EditPage() {
-    const { id } = useParams();
+    const { id,email } = useParams();
     const navigate = useNavigate();
     // const [name, setName] = useState("");
     // const [quantity, setQuantity] = useState("");
