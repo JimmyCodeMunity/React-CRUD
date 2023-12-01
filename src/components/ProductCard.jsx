@@ -49,7 +49,7 @@ function ProductCard({ product }) {
 
     return (
         <div>
-            <div class="max-w-sm bg-white border border-gray-200 mx-3 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div class="max-w-sm mb-6 bg-white border border-gray-200 mx-3 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 <Link to="#">
                     <img class="rounded-t-lg w-full h-60" src={product.image} alt="" onClick={()=>showImage(product.image)} />
                 </Link>
